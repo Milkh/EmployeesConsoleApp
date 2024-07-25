@@ -28,7 +28,8 @@ namespace TestProjectEmployeesApp.Test
             Assert.AreEqual(1, employee.Id, "ID should be correct");
             Assert.AreEqual("Temp", employee.FirstName, "First name should be correct");
             Assert.AreEqual("Temp", employee.LastName, "Last name should be correct");
-            Assert.AreEqual(5000, employee.Salary, "Salary should be correct");
+            Assert.AreEqual(5000m, employee.Salary, "Salary should be correct");
+            
         }
     }
 }
